@@ -3,7 +3,7 @@ class LivroDeNotas{
     //É um atributo(variável) da classe LivroDeNotas, ele armazenará o nome da disciplina
     String nomeDaDisciplina;
 
-    //Método(função) que permite definir 
+    //Método(função) que permite definir o nome da disciplina
     void setNomeDaDisciplina(String nomeDaDisciplina){
         //this se refere a variável criada na linha 4 da classe LivroDeNotas e não ao parâmetro desse método
         //Quando o método for chamado, o valor passado como argumento será atribuído a variável nomeDaDisciplina da linha 4
