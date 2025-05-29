@@ -3,14 +3,14 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class ConnectionFactory {
-    private String host = "localhost";
-    private String port = "5432";
-    private String db = "20251_fatec_ipi_poo_pessoas_sudan";
-    private String user = "postgres";
-    private String password = "123456";
+    private static String host = "localhost";
+    private static String port = "5432";
+    private static String db = "20251_fatec_ipi_poo_pessoas_sudan";
+    private static String user = "postgres";
+    private static String password = "123456";
     
     //https://google.com:80/search
-    public Connection obterConexao() throws Exception{
+    public static Connection obterConexao() throws Exception{
 
         //string de conexão
         var s = String.format(
